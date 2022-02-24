@@ -1,0 +1,109 @@
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+   
+  }
+  
+ 
+  
+  .about__role {
+    margin-top: 1.2em;
+    /* white-space:nowrap;
+    overflow: hidden;
+    animation: type 4s steps(60, end);  */
+  }
+  
+  .about__desc {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  
+  .about__desc,
+  .about__contact {
+    margin-top: 2.4em;
+  }
+  
+  .about .link--icon {
+    margin-right: 0.8em;
+  }
+  
+  .about .btn--outline {
+    margin-right: 1em;
+  }
+  
+  .about__name {
+    color: var(--clr-primary);
+    position: relative;
+    animation-name: aboutName;
+    animation-duration: 4s;
+  }
+
+
+  .about__me{
+    position: relative;
+    animation-name: aboutMe;
+    animation-duration: 4s;
+  }
+
+  h1 {
+    position: relative;
+   white-space:nowrap;
+   overflow: hidden;
+  /* added animation property to show the character one at a time*/
+   animation: type 4s steps(60, end); 
+
+ }
+
+
+  @media screen and (max-width: 600px) {
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+    }
+
+    h1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 35px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+   
+
+    h1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+    }
+  }
+
+  /* .my_name{
+    position: relative;
+    width: 100%;
+  } */
+
+  @keyframes aboutMe {
+    0%   { left:-100px; top:0px; opacity: 0%}
+    100%  { left:0px; top:0px;opacity: 100%}
+   
+  }
+
+   @keyframes aboutName {
+    0%   { right: -100px; top:0px; opacity: 0%}
+    100%  { right:0px; top:0px;opacity: 100%}
+   
+  }
+
+  
+
+ 
+
+  @keyframes type{ 
+    from { 
+         width: 0%; 
+         } 
+    to { 
+          width: 100%;
+          }
+     }
