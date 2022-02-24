@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/static/css/main.69f51949.css",
-    "main.js": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/static/js/main.07bb7610.js",
-    "static/media/Ibrahim-Khdairat.pdf": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/static/media/Ibrahim-Khdairat.89f79f843d3e45bf2ac1.pdf",
-    "index.html": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/index.html",
-    "main.69f51949.css.map": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/static/css/main.69f51949.css.map",
-    "main.07bb7610.js.map": "/git@github.com:Ibrahim-Khdairat/new-portfolio.git/static/js/main.07bb7610.js.map"
+    "main.css": "/new-portfolio/static/css/main.69f51949.css",
+    "main.js": "/new-portfolio/static/js/main.1398e6d4.js",
+    "static/media/Ibrahim-Khdairat.pdf": "/new-portfolio/static/media/Ibrahim-Khdairat.89f79f843d3e45bf2ac1.pdf",
+    "index.html": "/new-portfolio/index.html",
+    "main.69f51949.css.map": "/new-portfolio/static/css/main.69f51949.css.map",
+    "main.1398e6d4.js.map": "/new-portfolio/static/js/main.1398e6d4.js.map"
   },
   "entrypoints": [
     "static/css/main.69f51949.css",
-    "static/js/main.07bb7610.js"
+    "static/js/main.1398e6d4.js"
   ]
 }
