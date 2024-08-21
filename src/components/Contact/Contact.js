@@ -14,9 +14,9 @@ const Contact = () => {
         </span>
       </a>
 
-      <a href="tel:+962772676338" className='tel'>
+      <a href="tel:+962776800891" className='tel'>
         <span type='tel' >
-        📞 Call Me : +962772676338
+        📞 Call Me : +962776800891
         </span>
       </a>
     </section>
